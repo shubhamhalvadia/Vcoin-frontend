@@ -1,7 +1,7 @@
 
-<div class="card" >[class.border-primary]="isSelectedBlock()"
+<div class="card" >
     <div class="card-body">
-      <h5 class="card-title">Block {{ getBlockNumber() }} <small class="text-muted" *ngIf="block.previousHash == 0">(Genesis block)</small></h5>
+      <h5 class="card-title">Block <small class="text-muted" *ngIf="block.previousHash == 0">(Genesis block)</small></h5>
     </div>
 
      <ul class="list-group list-group-flush">
@@ -22,9 +22,9 @@
 	    </li>
 
 	    <li class="list-group-item">
-	    	<span class="">Nonce</span><br>
+	    	<span class="">Nounce</span><br>
 	    	<div class="text-truncate text-muted">
-	    		<small>{{ block.nonce }}</small>
+	    		<small>{{ block.nounce }}</small>
 	    	</div>
 	    </li>
 

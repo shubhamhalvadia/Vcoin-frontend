@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>Pending transaction</h1>
+
+    <app-transaction-table
+        [transactions]="pendingTransaction"
+    ></app-transaction-table>
+
+    <button class="btn btn-primary" (click)="minePendingTransaction()" routerLink="/">
+        Start mining
+    </button>
+
+</div>
